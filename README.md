@@ -1,16 +1,77 @@
-# React + Vite
+# 🌐 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built with React and Tailwind CSS to showcase my projects, skills, and experience as a Frontend Developer.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for all devices
+- Modern UI with Tailwind CSS
+- Project showcase
+- Experience section
+- Skills section
+- About Me
+- Contact section
+- Smooth scrolling
+- Clean and reusable React components
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+## 📁 Project Structure
+
+```
+src/
+ ├── assets/
+ ├── components/
+ ├── pages/
+ ├── data/
+ ├── App.jsx
+ └── main.jsx
+```
+
+## 💻 Installation
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+```bash
+cd portfolio
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+
+
+## 🎯 Skills Demonstrated
+
+- React Components
+- JSX
+- Props
+- React Hooks
+- State Management
+- Conditional Rendering
+- Responsive Design
+- Reusable Components
+- Tailwind CSS
+
+
+
+## 📄 License
+
+This project is open source and available under the MIT License.
