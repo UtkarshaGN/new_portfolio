@@ -7,6 +7,7 @@ import Header from './components/pages/Header.jsx'
 import Footer from './components/pages/Footer.jsx'
 import Projects from './components/pages/Projects.jsx'
 import Experience from './components/pages/Experience.jsx'
+import Skills from './components/pages/Skills.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,7 +15,7 @@ createRoot(document.getElementById('root')).render(
     <Home />
     <Experience/>
     <Projects/>
-    
+    <Skills/>
     <Footer/>
   </StrictMode>,
 )
