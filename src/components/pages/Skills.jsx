@@ -1,6 +1,6 @@
 import React from 'react'
 
-const skills = [ 'Next.js','React.js', 'JavaScript', 'Tailwind CSS','CSS3', 'HTML5', 'MySql','Express.js', 'Node.js', 'Mongodb', 'AWS']
+const skills = [ 'Next.js','React.js', 'JavaScript', 'Tailwind CSS','CSS3', 'HTML5', 'MySql','Express.js', 'Node.js', 'Mongodb', 'AWS', 'Git', 'Github', 'Figma']
 
 export default function Skills() {
   return (

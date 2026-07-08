@@ -4,6 +4,13 @@ import experiences from '../data/experienceData'
 export default function Experience() {
   const [selectedExperience, setSelectedExperience] = useState(experiences[0])
 
+  const descriptionPoints = Array.isArray(selectedExperience.description)
+    ? selectedExperience.description
+    : selectedExperience.description
+        .split('•')
+        .map((item) => item.trim())
+        .filter(Boolean)
+
   return (
     <section id='experience' className='py-20 bg-slate-50'>
       <div className='max-w-6xl mx-auto px-6 lg:px-8'>
@@ -37,7 +44,14 @@ export default function Experience() {
               {selectedExperience.role}
             </div>
             <h3 className='text-2xl font-bold text-slate-800'>{selectedExperience.company}</h3>
-            <p className='mt-4 text-slate-600 leading-7'>{selectedExperience.description}</p>
+            <ul className='mt-4 space-y-3'>
+              {descriptionPoints.map((point, index) => (
+                <li key={`${selectedExperience.id}-${index}`} className='flex gap-3 text-slate-600 leading-7'>
+                  <span className='mt-2 h-2.5 w-2.5 rounded-full bg-cyan-500 shrink-0'></span>
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

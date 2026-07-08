@@ -19,7 +19,7 @@ export default function Header() {
           <a href='#experience' className='hover:text-cyan-600 transition'>Experience</a>
           <a href='#project' className='hover:text-cyan-600 transition'>Projects</a>
           <a href='#skills' className='hover:text-cyan-600 transition'>Skills</a>
-          <a href='#contact' className='hover:text-cyan-600 transition'>Contact</a>
+         
         </nav>
       </div>
     </header>
