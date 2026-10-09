@@ -20,8 +20,13 @@ export default function Home() {
           </div>
 
           <div className='flex-1 flex justify-center animate-[fadeInRight_0.8s_ease-out]'>
-            <div className='p-3 rounded-3xl bg-white shadow-2xl hover:scale-105 transition-transform duration-300'>
+            <div className='relative'>
+              
+              <div aria-hidden='true' className='absolute -inset-3 rounded-[2rem] border-2 border-pink-400/70 animate-[pulse_3.5s_ease-in-out_infinite] motion-reduce:animate-none' />
+              <div aria-hidden='true' className='absolute -inset-6 rounded-[2.5rem] border border-rose-300/70 animate-[pulse_4.5s_ease-in-out_infinite] motion-reduce:animate-none' />
+              <div className='relative z-10 p-3 rounded-3xl bg-white shadow-2xl hover:scale-105 transition-transform duration-300'>
               <img src={profile} alt='Utkarsha' className='w-full max-w-md rounded-2xl object-cover' />
+              </div>
             </div>
           </div>
         </div>
