@@ -14,9 +14,9 @@ const experiences = [
     id: 2,
     company: "Ws Cube tech",
     role: "Frontend Developer",
-    duration: "March 2026-present",
+    duration: "March 2026-Sep 2026",
     description: [
-      "Built responsive UI components using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS.",
+      "Worked on a full-stack e-commerce website, contributing to frontend development and backend functionality..",
       "Translated Figma designs into interactive web interfaces with modern frontend practices.",
       "Collaborated with designers and developers to improve UI consistency, code quality, and maintainability.",
       "Developed scalable React components with a focus on performance, responsiveness, and cross-browser compatibility."
