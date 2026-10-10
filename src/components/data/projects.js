@@ -36,7 +36,8 @@ export const projects = [
     title: "ShopEase-E-commerce Web Application ",
     description: "Developed a responsive e-commerce web application using React.js and an external REST API.Implemented pagination The application allows users to browse products, filter products by brand and category, and sort products by name and price.",
     tech: ["React", "JavaScript (ES6+),", "Tailwind css", "Context API", "Rest api", "Axios"],
-    live:"https://shop-easy-1fxtwd2cb-utkarshagns-projects.vercel.app/ "
+   // live:"https://shop-easy-1fxtwd2cb-utkarshagns-projects.vercel.app/ "
+   live:"https://shop-easy-liart.vercel.app/"
 },
 
 {
